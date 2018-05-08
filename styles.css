@@ -1780,7 +1780,7 @@
 	}
 
 	a {
-		color: #5474a3;
+		color: #5484a3;
 	}
 
 	strong, b {
@@ -2045,7 +2045,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #5474a3;
+			background-color: #5484a3;
 			color: #ffffff !important;
 		}
 
@@ -2251,8 +2251,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #5474a3;
-			box-shadow: 0 0 0 1px #5474a3;
+			border-color: #5484a3;
+			box-shadow: 0 0 0 1px #5484a3;
 		}
 
 	.select-wrapper:before {
@@ -2261,6 +2261,7 @@
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
+		color: #000;
 		color: rgba(0, 0, 0, 0.5);
 	}
 
@@ -2272,15 +2273,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #5474a3;
-		border-color: #5474a3;
+		background-color: #5484a3;
+		border-color: #5484a3;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #5474a3;
-		box-shadow: 0 0 0 1px #5474a3;
+		border-color: #5484a3;
+		box-shadow: 0 0 0 1px #5484a3;
 	}
 
 	::-webkit-input-placeholder {
