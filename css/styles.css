@@ -1624,7 +1624,8 @@
 
 	body {
 		background-color: #fff;
-		color: rgba(0, 0, 0, 0.5);
+		color: rgb(141, 141, 141);
+		color: rgba(141, 141, 141, 0.8);
 	}
 
 	body, input, select, textarea {
@@ -1642,8 +1643,29 @@
 			text-decoration: none;
 		}
 
-	strong, b {
+	b {
+		font-weight: 400;
+		color: rgb(101, 101, 101);
+		color: rgba(101, 101, 101, 0.8);
+	}
+
+	strong {
+		font-family: "Jura",sans-serif;
 		font-weight: 600;
+		color: rgb(101, 101, 101);
+		color: rgba(101, 101, 101, 0.8);
+	}
+
+	p.signature {
+		margin: 5rem 0 0 0;
+		font-family: "Jura", sans-serif;
+		font-weight: 700;
+	}
+
+	p.signature + p {
+		margin: -0.5rem 0 0 0;
+		font-family: "Jura", sans-serif;
+		font-weight: 500;
 	}
 
 	em, i {
@@ -1781,10 +1803,6 @@
 
 	a {
 		color: #5484a3;
-	}
-
-	strong, b {
-		color: #1e1f23;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2952,11 +2970,12 @@
 	}
 
 		#header > .logo {
-			margin: 0 0 4rem 0;
+			margin: 0 0 5rem 0;
 			padding: 0;
 		}
 
 			#header > .logo a {
+				font-family: "Jura",sans-serif;
 				font-size: 4rem;
 				font-weight: 500;
 				color: #FFF;
@@ -2965,8 +2984,8 @@
 			}
 
 			#header > .logo span {
-				font-weight: 300;
-				font-size: 1rem;
+				font-weight: 600;
+				font-size: 1.5rem;
 				display: block;
 				color: rgba(255, 255, 255, 0.65);
 			}
@@ -2989,9 +3008,12 @@
 		}
 
 			#header > .logo a {
-				font-size: 3rem;
+				font-size: 2rem;
 			}
-
+			
+			#header > .logo a {
+				font-size: 1rem;
+			}
 	}
 
 /* Main */
